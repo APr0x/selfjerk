@@ -1,0 +1,15 @@
+a, b = 0, 1
+series_length = 20
+print(a, b, end=' ')
+for i in range(series_length):
+    c = a + b
+    print(c, end=' ')
+    a = b
+    b = c
+
+x = range(1, 101)
+y = sum(x)
+print(y)
+
+for i in range(0, 100, 5):
+    print(i)
